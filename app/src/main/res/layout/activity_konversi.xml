@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".KonversiActivity">
+
+    <TextView
+        android:id="@+id/judulKonversi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="@string/judul1"
+        android:textColor="#f2fcfe"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textCelcius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judulKonversi"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/suhu"
+        android:textColor="#f2fcfe" />
+
+    <EditText
+        android:id="@+id/celcius"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textCelcius"
+        android:layout_centerHorizontal="true"
+        android:autofillHints="Ketik disini"
+        android:inputType="number"
+        android:textColor="#f2fcfe" />
+
+    <Button
+        android:id="@+id/buttonKonversi"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/celcius"
+        android:layout_centerHorizontal="true"
+        android:onClick="konversi"
+        android:text="@string/konversi1"
+        android:textColor="#000000"
+        app:backgroundTint="#66BB6A" />
+
+    <TextView
+        android:id="@+id/textFahrenheit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonKonversi"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/fahrenheit"
+        android:textColor="#f2fcfe" />
+
+    <EditText
+        android:id="@+id/fahrenheit"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textFahrenheit"
+        android:layout_centerHorizontal="true"
+        android:enabled="false"
+        android:textColor="#f2fcfe" />
+
+    <Button
+        android:id="@+id/buttonBersihkan"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fahrenheit"
+        android:layout_centerHorizontal="true"
+        android:onClick="bersih"
+        android:text="bersihkan"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@color/purple_500" />
+
+    <Button
+        android:id="@+id/buttonKembali"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBersihkan"
+        android:layout_centerHorizontal="true"
+        android:onClick="kembali"
+        android:text="@string/back"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@color/red" />
+</RelativeLayout>

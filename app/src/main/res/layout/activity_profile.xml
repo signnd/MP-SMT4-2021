@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/judulProfile"
+        android:textSize="22sp"
+        android:textColor="#f2fcfe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/judulProfile"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:id="@+id/dika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f2fcfe"
+        android:text="@string/dika"
+        android:layout_below="@id/judulProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/ngurah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f2fcfe"
+        android:text="@string/ngurah"
+        android:layout_below="@id/dika"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/marcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f2fcfe"
+        android:text="@string/marcel"
+        android:layout_below="@id/ngurah"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/mangte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f2fcfe"
+        android:text="@string/mangte"
+        android:layout_below="@id/marcel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonKembali"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mangte"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="kembaliProfile"
+        android:text="@string/kembali"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@color/red"
+        app:iconTint="#FFFFFF" />
+
+</RelativeLayout>

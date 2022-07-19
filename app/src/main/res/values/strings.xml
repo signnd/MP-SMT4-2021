@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UAS Kelompok Elang</string>
+    <string name="judul1">Konversi Celcius ke Fahrenheit</string>
+    <string name="judul2">Oleh Kelompok Elang</string>
+    <string name="konversi">Konversi Suhu</string>
+    <string name="profile">Profile</string>
+    <string name="exit">Keluar</string>
+    <string name="suhu">Masukkan suhu dalam celcius</string>
+    <string name="konversi1">Konversi</string>
+    <string name="fahrenheit">Suhu dalam Fahrenheit</string>
+    <string name="back">Kembali</string>
+    <string name="dika">Made Putra Pasek Ryandika (19101371)</string>
+    <string name="ngurah">A.A Ngurah Mertha Jaya (19101086)</string>
+    <string name="marcel">Michael Diva Marcelino (19101072)</string>
+    <string name="mangte">I Nyoman Suadnyana Putra (19101079)</string>
+    <string name="kembali">kembali</string>
+    <string name="judulProfile">Profile Anggota Kelompok Elang</string>
+</resources>
